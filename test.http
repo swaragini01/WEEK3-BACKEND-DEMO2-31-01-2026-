@@ -1,0 +1,57 @@
+### user-api requests
+GET http://localhost:4000/user-api/users
+
+###
+GET http://localhost:4000/user-api/users/69836cc430b03d2aede30ad0
+
+### 
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "username":"divya",
+    "password":"divya",
+    "age":20
+
+}
+
+###
+PUT http://localhost:4000/user-api/users/69836cc430b03d2aede30ad0
+Content-Type: application/json
+
+{
+    "username":"divya",
+    "password":"divya",
+    "age":22
+}
+
+###
+DELETE  http://localhost:4000/user-api/users/69836cc430b03d2aede30ad0
+
+#####----------------------------------------------
+### product-api requests
+
+
+GET http://localhost:4000/product-api/products
+
+###
+POST  http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+    "pid":10,
+    "productname":"chips",
+    "price":20
+}
+###
+GET http://localhost:4000/product-api/products/69836cd430b03d2aede30ad4
+###
+PUT  http://localhost:4000/product-api/products/69836cd430b03d2aede30ad4
+Content-Type: application/json
+
+{
+    "pid":10,
+    "productname":"chips",
+    "price":50
+
+}

@@ -5,7 +5,7 @@ Welcome to the documentation for the Week 3 core assignment. This week shifted f
 
 ---
 
-## 📂 Backend Project Folder Structure
+##  Backend Project Folder Structure
 
 The backend follows a strict **Layered Architecture Pattern** to enforce separation of concerns, ensuring that database logic, routing mechanisms, and business validations never conflict:
 
@@ -34,7 +34,7 @@ Blog_app_backend/
 
 ---
 
-## 🛠️ Architectural Layers & Workflow Design
+##  Architectural Layers & Workflow Design
 
 ```mermaid
 graph LR
@@ -82,7 +82,7 @@ Exposes structured RESTful resource paths using specific HTTP verbs to govern da
 
 ---
 
-## 🚀 Setup & Initialization Guide
+##  Setup & Initialization Guide
 
 Follow these steps to initialize and spin up the development environment from scratch:
 
@@ -114,7 +114,7 @@ npm install express mongoose dotenv
 
 ```
 
-> ⚠️ **Critical Requirement:** Open the `package.json` file and declare explicit support for modern ES Modules alongside the primary script target:
+>  **Critical Requirement:** Open the `package.json` file and declare explicit support for modern ES Modules alongside the primary script target:
 > ```json
 > "type": "module",
 > "main": "server.js"
